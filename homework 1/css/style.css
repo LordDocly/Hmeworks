@@ -1,5 +1,6 @@
 .header{
    text-align: center;
+   margin-bottom: 30px;
 }
 
 .menu{
@@ -31,6 +32,50 @@ li{
     color: #00c8fd;
 }
 
+div{
+    text-align: center;
+    margin: 10%;
+}
+
+.section{
+    width: 40%;
+    display: inline-block;
+    margin: 50px;
+}
+
 h3{
     text-transform: uppercase;
+    color: #e3ddd7;
+    font-size: 15px;
+    margin: 0;
+    margin-top: 10px;
+    width: 100px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+
+h2{
+    font-size: 24px;
+    text-align: left;
+    color: #757575;
+    font-family: sans-serif;
+}
+
+p{
+    text-align: left;
+    color: #757575;
+    font-family: sans-serif;
+}
+
+.ea{
+    border: 2px solid #757575;
+    width: 100px;
+    margin-left: 50%;
+}
+
+.rrr{
+    color: #757575;
+    text-align: center;
+    width: 100px;
 }
