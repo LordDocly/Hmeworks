@@ -78,3 +78,7 @@ p{
     text-align: center;
     width: 100%;
 }
+
+.ea:hover{
+    background-color: aqua;
+}
