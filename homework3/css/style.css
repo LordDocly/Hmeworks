@@ -1,0 +1,35 @@
+.header{ 
+    text-align: center; 
+    margin-bottom: 30px; 
+} 
+ 
+.menu{ 
+    list-style: none; 
+    padding: 1px; 
+    margin-top: 55px; 
+} 
+ 
+a{ 
+    text-decoration: none; 
+    color: #757575; 
+} 
+ 
+li{ 
+    display: inline-block; 
+    margin-right: 24px; 
+    margin-left: 24px; 
+} 
+ 
+.menu_item{ 
+    padding-right: 24px; 
+    padding-left: 24px; 
+    font-size: 18px; 
+    font-family: sans-serif; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    color: #757575; 
+}
+
+.menu_item:hover{
+    color: #00c8fd;
+}
