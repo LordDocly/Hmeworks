@@ -33,3 +33,38 @@ li{
 .menu_item:hover{
     color: #00c8fd;
 }
+
+main{
+    text-align: center;
+    margin: 10%;
+}
+
+section{
+    width: 35%;
+    display: inline-block;
+    margin: 50px;
+}
+
+h3{
+    text-transform: uppercase;
+    color: #e3ddd7;
+    font-size: 15px;
+    margin: 0;
+    margin-top: 10px;
+    width: 100px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 24px;
+    text-align: left;
+    color: #757575;
+    font-family: sans-serif;
+}
+
+p{
+    text-align: left;
+    color: #757575;
+    font-family: sans-serif;
+}
