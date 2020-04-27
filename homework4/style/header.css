@@ -2,7 +2,7 @@
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
-    margin: 1rem auto 4rem;
+    margin: 40px auto 4rem;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -52,6 +52,33 @@
 }
 
 .wwwas{
+    width: 100%;
+    display: inline-flex;
+    margin: 10px; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    color: #333333;
+}
+
+.wew{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0 auto 16px;
+}
+
+.srv{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wwwas::after{
+    content: '';
     display: flex;
-    margin: 10px;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 40px auto 0;
 }
