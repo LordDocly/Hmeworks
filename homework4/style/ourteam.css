@@ -1,0 +1,43 @@
+.section{
+    margin: 0 18%;
+    margin-top: 97px;
+}
+
+.wwwas{
+    width: 100%;
+    display: inline-flex;
+    margin: 10px; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    color: #333333;
+}
+
+.wew{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0 auto 16px;
+}
+
+.srv{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wwwas::after{
+    content: '';
+    display: flex;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 40px auto 62px;
+}
+
+.awwa{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+}
