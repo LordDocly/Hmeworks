@@ -51,13 +51,13 @@ li{
 
 main{
     text-align: center;
-    margin: 0 10%;
+    margin: 0 150px;
 }
 
 section{
-    width: 420px;
+    max-width: 420px;
     display: inline-block;
-    margin: 100px 50px;
+    margin: 100px 50px 100px 0;
     height: 480px;
     text-align: center;
 }
