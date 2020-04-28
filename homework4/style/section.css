@@ -1,0 +1,70 @@
+.section{
+    margin: 0 18%;
+}
+
+.wwwas{
+    width: 100%;
+    display: inline-flex;
+    margin: 10px; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    color: #333333;
+}
+
+.wew{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0 auto 16px;
+}
+
+.srv{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wwwas::after{
+    content: '';
+    display: flex;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 40px auto 62px;
+}
+
+.wrapper{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services{
+    display: inline-flex;
+    width: 360px;
+    margin: 0 0 100px 0;
+}
+
+.image{
+    width: 32px;
+    height: 32px;
+    margin-right: 26px;
+}
+
+.text{
+    width: 270px;
+}
+
+.title{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.parag{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+}
