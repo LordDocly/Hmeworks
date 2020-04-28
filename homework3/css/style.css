@@ -75,24 +75,24 @@ h3{
     margin-top: 10px;
     width: 100px;
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2{
     font-size: 28px;
     text-align: left;
     color: #757575;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p{
     text-align: left;
     color: #757575;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .buttonowner{
-    font-family: sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 70px;
 }
 
@@ -101,10 +101,11 @@ p{
     width: 8%;
     margin-left: 47%;
     height: 40px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: transparent;
 }
 
 .button:hover{
     background-color: aqua;
+    font-family: 'Montserrat', sans-serif;
 }
