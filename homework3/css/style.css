@@ -1,3 +1,5 @@
+@import "./reset.css";
+
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 
 /* font-family: 'Kaushan Script', cursive; */
@@ -12,7 +14,8 @@
 
 .header{ 
     text-align: center; 
-    margin-bottom: 30px; 
+    margin-bottom: 100px; 
+    margin-top: 70px;
 } 
  
 .menu{ 
@@ -23,7 +26,7 @@
  
 a{ 
     text-decoration: none; 
-    color: #757575; 
+    color: #626262; 
 } 
  
 li{ 
@@ -35,32 +38,38 @@ li{
 .menu_item{ 
     padding-right: 24px; 
     padding-left: 24px; 
-    font-size: 18px; 
+    font-size: 1rem; 
     font-family: 'Montserrat', sans-serif; 
     text-transform: uppercase; 
     text-decoration: none; 
-    color: #757575; 
+    color: #626262; 
 }
 
 .menu_item:hover{
-    color: #00c8fd;
+    color: #03a9f4;
 }
 
 main{
     text-align: center;
-    margin: 10%;
+    margin: 0 10%;
 }
 
 section{
-    width: 35%;
+    width: 420px;
     display: inline-block;
-    margin: 50px;
+    margin: 100px 50px;
+    height: 480px;
+}
+
+img{
+    width: 420px;
+    height: 280px;
 }
 
 h3{
     text-transform: uppercase;
     color: #e3ddd7;
-    font-size: 15px;
+    font-size: 14px;
     margin: 0;
     margin-top: 10px;
     width: 100px;
@@ -69,7 +78,7 @@ h3{
 }
 
 h2{
-    font-size: 24px;
+    font-size: 28px;
     text-align: left;
     color: #757575;
     font-family: sans-serif;
