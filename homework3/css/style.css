@@ -59,6 +59,7 @@ section{
     display: inline-block;
     margin: 100px 50px;
     height: 480px;
+    text-align: center;
 }
 
 img{
@@ -92,6 +93,7 @@ p{
 
 .buttonowner{
     font-family: sans-serif; 
+    margin-bottom: 70px;
 }
 
 .button{
@@ -100,6 +102,7 @@ p{
     margin-left: 47%;
     height: 40px;
     font-family: sans-serif;
+    background-color: transparent;
 }
 
 .button:hover{
