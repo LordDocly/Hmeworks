@@ -1,10 +1,9 @@
 .header{
     display: inline-flex;
-    width: 65%;
+    width: 64%;
     justify-content: space-between;
     margin: 0 18% 110px;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .logo{
