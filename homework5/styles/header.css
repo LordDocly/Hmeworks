@@ -1,8 +1,8 @@
 .header{
     display: inline-flex;
-    width: 64%;
+    width: 76%;
     justify-content: space-between;
-    margin: 0 18% 110px;
+    margin: 0 12% 110px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -37,6 +37,9 @@
 
 .menu_list-item{
     color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .menu_list-item:hover{
