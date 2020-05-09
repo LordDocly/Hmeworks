@@ -3,14 +3,13 @@
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     color: #999999;
-    margin: 0 10%;
     margin-bottom: 90px;
 }
 
 .wrapper_opti{
     display: inline-flex;
     justify-content: space-between;
-    width: 80%;
+    width: 1200px;
     text-align: center;
     margin-bottom: 100px;
 }
@@ -54,11 +53,6 @@
     transition: 0.4s linear;
     transform: translate(-10px, -10px);
 }
-
-/* .member_wrapper-img:hover{
-    transition: 0.4s linear;
-    transform: translate(-10px, -10px);
-} */
 
 .member_socnet{
     position: relative;
