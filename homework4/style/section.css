@@ -1,9 +1,10 @@
 .section{
-    margin: 0 18%;
+    margin: 0 370px;
+    width: 1200px;
 }
 
 .wwwas{
-    width: 100%;
+    width: 1200px;
     display: inline-flex;
     margin: 10px; 
     flex-wrap: wrap;
@@ -38,6 +39,7 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 1200px;
 }
 
 .services{
@@ -61,10 +63,14 @@
     font-family: 'Montserrat', sans-serif;
     color: #333333;
     text-transform: uppercase;
+    font-weight: 300;
+    line-height: 30px;
 }
 
 .parag{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     color: #999999;
+    font-weight: 300;
+    line-height: 22px;
 }

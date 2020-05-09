@@ -1,8 +1,8 @@
 .header{
     display: inline-flex;
-    width: 64%;
+    width: 1200px;
     justify-content: space-between;
-    margin: 0 18% 110px;
+    margin: 0 370px 110px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -33,6 +33,7 @@
 
 .menu_item{
     color: #95e1d3;
+    text-transform: uppercase;
 }
 
 .menu_item:hover{

@@ -1,10 +1,9 @@
 .section{
-    margin: 0 18%;
-    margin-top: 97px;
+    margin: 0 370px;
 }
 
 .wwwas{
-    width: 100%;
+    width: 1200px;
     display: inline-flex;
     margin: 10px; 
     flex-wrap: wrap;
@@ -44,18 +43,20 @@
 }
 
 .wepperguys{
-    width: 100%;
+    width: 1200px;
     display: inline-flex;
     justify-content: space-between;
     margin-bottom: 80px;
 }
 
 .MD{
-    max-width: 375px;
+    width: 380px;
+    text-align: center;
+    margin: 15px;
 }
 
 .MDi{
-    max-width: 100%;
+    max-width: 1200px;
 }
 
 .tmpi{
