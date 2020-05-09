@@ -87,19 +87,16 @@ p{
     font-family: 'Playfair Display', serif;
 }
 
-.buttonowner{
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 70px;
-}
-
 .button{
+    display: block;
     border: 2px solid #757575;
     width: 10%;
-    margin-left: 47%;
+    margin: auto;
     height: 40px;
     font-family: 'Playfair Display', serif;
     font-size: 18px;
     background-color: transparent;
+    margin-bottom: 70px;
 }
 
 .button:hover{
