@@ -5,6 +5,9 @@
     justify-content: space-between;
     margin: 0 350px 110px;
     font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
 }
 
 .logo{

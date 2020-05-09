@@ -1,3 +1,7 @@
+.main{
+    margin-top: 170px;
+}
+
 .section{
     width: 1200px;
     margin: 0 auto;
@@ -47,6 +51,7 @@
     display: inline-flex;
     width: 360px;
     margin: 0 0 100px 0;
+    text-align: left;
 }
 
 .image{
@@ -64,10 +69,51 @@
     font-family: 'Montserrat', sans-serif;
     color: #333333;
     text-transform: uppercase;
+    font-weight: 300;
+    line-height: 30px;
 }
 
 .parag{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     color: #999999;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.services::before{
+    content: '';
+    display: block;
+    margin: 10px 24px 0 0;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    vertical-align: top;
+    width: 32px;
+    height: 32px;
+}
+
+.clock::before{
+    background-image: url("../img/ico_clock.png");
+}
+
+.graph::before{
+    background-image: url("../img/ico_graph.png");
+}
+
+.computer::before{
+    background-image: url("../img/ico_computer.png");
+}
+
+.book::before{
+    background-image: url("../img/ico_book.png");
+}
+
+.home::before{
+    background-image: url("../img/ico_home.png");
+}
+
+.icon::before{
+    background-image: url("../img/image_icon.png");
 }
