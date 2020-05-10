@@ -57,6 +57,7 @@
 
 .header_menu:hover > .menu_list{
     display: block;
+    z-index: 2;
 }
 
 .menu_list-item{
@@ -70,6 +71,7 @@
     font-family: 'Open Sans', sans-serif;
     line-height: 22px;
     background-color: #fff;
+    color: #969596;
 }
 
 .menu_list-item-link:hover{
@@ -169,4 +171,45 @@
 
 .intoduction_phone{
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .introduction{
+        height: 850px;
+    }
+    
+    .intoduction_div{
+        height: 756px;
+        background-image: url("../img/background_tablet.png");
+    }
+
+    .menu_button{
+        display: none;
+    }
+
+    .header_menu:hover > .menu_list{
+        display: flex;
+    }
+
+    .menu_list{
+        position: static;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu_list-item-link{
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 22px;
+        background-color: #fff;
+    }
+    
+    .menu_list-item-link:hover{
+        color: #282528;
+    }
+
 }
