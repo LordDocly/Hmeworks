@@ -115,7 +115,7 @@
     font-family: 'Raleway', sans-serif;
     color: #fff;
     line-height: 33px;
-    list-style: "❭" outside;
+    list-style: "❯" outside;
     padding-left: 16px;
 }
 
@@ -123,7 +123,6 @@
     display: inline;
     position: absolute;
     top: 415px;
-    /* left: 55px; */
     left: 50%;
     transform: translateX(-50%);
     width: 210px;
