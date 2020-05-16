@@ -32,6 +32,7 @@
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
     color: #330cf4;
+    cursor: pointer;
 }
 
 .header_menu{
@@ -73,6 +74,7 @@
     line-height: 22px;
     background-color: #fff;
     color: #969596;
+    cursor: pointer;
 }
 
 .menu_list-item-link:hover{
@@ -136,6 +138,7 @@
     background-color: #330cf4;
     border-radius: 5px;
     position: relative;
+    cursor: pointer;
 }
 
 .intoduction_link-text{
