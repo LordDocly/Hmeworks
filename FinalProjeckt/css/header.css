@@ -1,25 +1,26 @@
 .introduction{
-    height: 568px;
+    /* height: 568px; */
     position: relative;
 }
 
 .intoduction_div{
-    height: 568px;
+    /* height: 568px; */
     width: 100%;
     background-image: url("../img/background_mobile.png");
     background-size: cover;
     background-position-x: 1px;
-    display: flex;
+    /* display: flex; */
 }
 
 .header{
     height: 80px;
+    margin-top: 20px;
     width: 100%;
     background-color: #fff;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
-    position: absolute;
-    top: 20px;
+    /* position: absolute;
+    top: 20px; */
 }
 
 .header_name{
@@ -36,8 +37,9 @@
 }
 
 .header_menu{
-    margin: 20px 13px;
+    padding: 20px 13px;
     text-align: center;
+    position: relative;
 }
 
 .menu_button{
@@ -81,14 +83,16 @@
     color: #330cf4;
 }
 
-.div_wrapper-title{
-    display: inline;
+/* .div_wrapper-title{
+    display: block;
     position: absolute;
     top: 190px;
-    margin: 0 13px;
-}
+    margin: 90px 13px;
+} */
 
 .intriduction_div-title{
+    display: inline-flex;
+    margin: 90px 13px 0;
     font-size: 24px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
@@ -97,6 +101,8 @@
 }
 
 .intriduction_div-subtitle{
+    display: inline-flex;
+    margin: 0 13px 0;
     font-size: 16px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
@@ -105,10 +111,12 @@
 }
 
 .intoduction_div-list{   
-    display: inline;
-    position: absolute;
-    top: 300px;
-    margin-left: 20px;
+    display: inline-flex;
+    /* position: absolute;
+    top: 300px; */
+    margin: 30px 20px 0;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
 }
 
 .intoduction_div_list-item{
@@ -121,7 +129,7 @@
     padding-left: 16px;
 }
 
-.intoduction_link_div{
+/* .intoduction_link_div{
     display: inline;
     position: absolute;
     top: 415px;
@@ -129,42 +137,46 @@
     transform: translateX(-50%);
     width: 210px;
     height: 48px;
-}
+} */
 
 .intoduction_link{
-    display: block;
-    width: 100%;
+    display: inline-flex;
+    width: 200px;
     height: 48px;
     background-color: #330cf4;
     border-radius: 5px;
-    position: relative;
+    /* position: relative; */
+    margin: 30px 50% 104px;
+    transform: translateX(-50%);
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .intoduction_link-text{
-    display: inline-flex;
+    /* display: inline-flex; */
     font-size: 20px;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     height: 36px;
     line-height: 36px;
-    margin: 6px 0;
+    margin: 6px 7px;
     text-align: center;
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 75px;
+    left: 75px; */
 }
 
 .intoduction_link-image{
-    display: inline-flex;
+    /* display: inline-flex; */
     width: 36px;
     height: 36px;
-    margin: 6px 0;
+    margin: 6px 7px;
     vertical-align: middle;
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 21px;
+    left: 21px; */
 }
 
 .intoduction_phone{
