@@ -40,7 +40,6 @@
 .menu_button{
     font-size: 30px;
     font-weight: 900;
-    width: 30px;
 }
 
 .menu_button:hover{
@@ -79,7 +78,7 @@
 }
 
 .intriduction_div-title{
-    display: inline-flex;
+    display: inline-block;
     margin: 90px 13px 0;
     font-size: 24px;
     font-weight: 700;
@@ -89,7 +88,7 @@
 }
 
 .intriduction_div-subtitle{
-    display: inline-flex;
+    display: inline-block;
     margin: 0 32px 0 13px;
     font-size: 16px;
     font-weight: 600;
@@ -99,7 +98,7 @@
 }
 
 .intoduction_div-list{   
-    display: flex;
+    display: block;
     margin: 30px 20px 0;
     flex-direction: column;
 }
@@ -228,7 +227,7 @@
     }
     
     .intoduction_phone{
-        display: inline-flex;
+        display: inline;
         position: absolute;
         right: 134px;
         top: 430px;
